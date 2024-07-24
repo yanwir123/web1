@@ -1,0 +1,133 @@
+/* Contact.css */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: url("../../Asset2/conten\ cd12.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+.contact-content {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Warna latar belakang putih dengan transparansi */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 800px; /* Lebar maksimum konten */
+}
+
+.contact-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.contact-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.contact-content h2,
+.contact-content h1 {
+  color: #333; /* Warna teks */
+}
+
+.contact-content h1,
+.contact-content h2,
+.contact-content h3 {
+  font-weight: bold;
+}
+
+.contact-content p {
+  line-height: 1.6;
+}
+
+.contact-content form {
+  margin-top: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Warna latar tombol */
+  color: #fff; /* Warna teks tombol */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Warna latar tombol saat dihover */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Jarak antara ikon */
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  color: #333; /* Warna ikon */
+  transition: color 0.3s ease; /* Transisi warna */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Warna ikon saat dihover */
+}
+
+@media (max-width: 768px) {
+  .contact-content h1 {
+    font-size: 2em;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+    margin-bottom: 10px;
+  }
+}

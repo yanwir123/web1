@@ -1,0 +1,41 @@
+/* src/components/OrderButton.css */
+
+.order-button {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000; /* Ensure the button is on top of other elements */
+}
+
+.order-button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .order-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 1000; /* Ensure the button is on top of other elements */
+  }
+
+  .order-button:hover {
+    background-color: #555;
+  }
+}

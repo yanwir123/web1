@@ -1,0 +1,112 @@
+/* src/components/Home.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: url("../../Asset2/bg1.png") no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+.home-content {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Warna latar belakang putih dengan transparansi */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 90%; /* Agar lebih responsif */
+  max-width: 800px; /* Maksimal lebar konten */
+}
+
+.home-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333; /* Tambahkan warna teks */
+}
+
+.home-content p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #666; /* Tambahkan warna teks */
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Tambahkan warna teks */
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666; /* Tambahkan warna teks */
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.service-image {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2em;
+  }
+
+  .home-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%; /* Menyesuaikan dengan lebar layar */
+    margin-bottom: 20px; /* Jarak antar kartu di mode mobile */
+  }
+}
